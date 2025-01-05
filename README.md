@@ -68,6 +68,26 @@ The node outputs two integer values:
 
 ---
 
+## Installation Guide:
+
+Install this custom node in ComfyUI:
+
+### Method : Using Git
+
+1.  **Navigate to `custom_nodes` Directory:**
+    *   Open your terminal or command prompt and navigate to the `custom_nodes` directory within your ComfyUI installation.
+2.  **Clone the Repository:**
+    *   Use the following command to clone the Git repository directly into your `custom_nodes` directory:
+        ```bash
+        git clone https://github.com/waynepimpzhang/comfyui-opencv-brightestspot.git
+        ```
+3.  **Restart ComfyUI:**
+     *   Close and then re-open ComfyUI to refresh the list of custom nodes.
+4.  **Usage:**
+     *  You can find the node by searching for `FindBrightestSpot` in the ComfyUI interface. It will be in the `image/opencv` category.
+
+---
+
 ## Node Code:
 
 ```python
